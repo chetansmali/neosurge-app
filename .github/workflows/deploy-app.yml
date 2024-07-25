@@ -1,0 +1,66 @@
+# name: deploy-app
+# on:
+#   push:
+#     branches:
+#       - "develop-fastlane"
+# jobs:
+#   build:
+#     runs-on: macos-latest
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Set up Java
+#         uses: actions/setup-java@v2
+#         with:
+#           distribution: "temurin"
+#           java-version: 17
+
+#       - name: Setup Flutter
+#         uses: subosito/flutter-action@v2
+#         with:
+#           flutter-version: "3.16.9"
+#           channel: "stable"
+#           cache: true
+
+#       - name: Install dependencies
+#         run: flutter pub get
+
+#       # - name: Create android/key.properties, to be used by Flutter for building AppBundle
+#       #   run: |
+#       #     echo "storePassword=${{ secrets.KEYSTORE_PASSWORD }}" > android/key.properties
+#       #     echo "keyPassword=${{ secrets.KEY_PASSWORD }}" >> android/key.properties
+#       #     echo "keyAlias=${{ secrets.KEY_ALIAS }}" >> android/key.properties
+#       #     echo "storeFile=keystore/keystore.jks" >> android/key.properties
+
+#       # - name: Decoding keystore and store it
+#       #   run: |
+#       #     mkdir android/app/keystore
+#       #     echo "${{ secrets.KEYSTORE }}" | base64 -d > android/app/keystore/keystore.jks
+
+#       # - name: Build AppBundle
+#       #   run: flutter build appbundle -t lib/main_prod.dart --flavor prod
+
+#       # - name: Upload AppBundle to internal testing using fastlane
+#       #   env:
+#       #     FASTLANE_NEOSURGE_SERVICE_ACCOUNT_DATA: ${{ secrets.FASTLANE_NEOSURGE_SERVICE_ACCOUNT_DATA }}
+
+#       #   run: |
+#       #     cd android && bundle update && bundle exec fastlane supply init --verbose && bundle exec fastlane internal
+
+#       - name: Decoding Apple Store API Connect JSON and store it
+#         env:
+#           APPLE_STORE_API_CONNECT_JSON: ${{ secrets.APPLE_STORE_API_CONNECT_JSON }}
+#         run: |
+#           echo $APPLE_STORE_API_CONNECT_JSON | base64 -d > ios/fastlane/apple_store_api_connect.json
+
+#       - name: Build IPA
+#         run: flutter build ipa -t lib/main_prod.dart --flavor prod --no-codesign
+
+#       - name: Upload to testflight using fastlane
+#         env:
+#           FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+#           MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+#           MATCH_KEYCHAIN_PASSWORD: ${{ secrets.MATCH_KEYCHAIN_PASSWORD }}
+#           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+#         run: |
+#           cd ios && bundle update && bundle exec fastlane internal_testflight

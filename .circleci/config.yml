@@ -1,0 +1,98 @@
+version: 2.1
+
+orbs:
+  android: circleci/android@2.5.0
+  flutter: circleci/flutter@2.0.2
+
+jobs:
+  android_distribute:
+    executor:
+      name: android/android-machine
+      resource-class: large
+      tag: default
+
+    steps:
+      - checkout
+
+      - flutter/install_sdk_and_pub:
+          version: 3.16.9
+
+      - run:
+          command: |
+            echo "keyAlias=$KEY_ALIAS" > android/key.properties
+            echo "storePassword=$KEYSTORE_PASSWORD" >> android/key.properties
+            echo "keyPassword=$KEY_PASSWORD" >> android/key.properties
+            echo "storeFile=keystore/keystore.jks" >> android/key.properties
+          name: Create android/key.properties, to be used by Flutter for building AppBundle
+
+      - run:
+          command: |
+            mkdir android/app/keystore
+            echo "$KEYSTORE" | base64 -di > android/app/keystore/keystore.jks
+          name: Decoding keystore and store it
+
+      - run:
+          command: |
+            flutter build appbundle -t lib/main_prod.dart --flavor prod
+          name: Building AppBundle
+
+      - run:
+          command: |
+            echo 'export FASTLANE_NEOSURGE_SERVICE_ACCOUNT_DATA=$FASTLANE_NEOSURGE_SERVICE_ACCOUNT_DATA' >> $BASH_ENV
+            cd android
+            bundle update
+            bundle exec fastlane supply init
+            bundle exec fastlane internal
+            cd ..
+          name: Uploading AppBundle to internal testing using fastlane
+          no_output_timeout: 20m
+
+  ios_distribute:
+    macos:
+      xcode: 15.2.0
+    steps:
+      - checkout
+
+      - flutter/install_sdk_and_pub:
+          version: 3.16.9
+
+      - run:
+          command: |
+            echo $APPLE_STORE_API_CONNECT_JSON | base64 -d > ios/fastlane/apple_store_api_connect.json
+          name: Decoding Apple Store API Connect JSON and store it
+
+      - run:
+          command: |
+            echo 'export FASTLANE_PASSWORD=$FASTLANE_PASSWORD' >> $BASH_ENV
+            echo 'export MATCH_GIT_BASIC_AUTHORIZATION=$MATCH_GIT_BASIC_AUTHORIZATION' >> $BASH_ENV
+            echo 'export MATCH_KEYCHAIN_PASSWORD=$MATCH_KEYCHAIN_PASSWORD' >> $BASH_ENV
+            echo 'export MATCH_PASSWORD=$MATCH_PASSWORD' >> $BASH_ENV
+            cd ios
+            bundle update
+            bundle exec fastlane sync_certificates
+            cd ..
+          name: Syncing Developement certificates and provisioning profiles
+
+      - run:
+          command: flutter build ipa -t lib/main_prod.dart --flavor prod
+          name: Building IPA
+
+      - run:
+          command: |
+            echo 'export FASTLANE_PASSWORD=$FASTLANE_PASSWORD' >> $BASH_ENV
+            echo 'export MATCH_GIT_BASIC_AUTHORIZATION=$MATCH_GIT_BASIC_AUTHORIZATION' >> $BASH_ENV
+            echo 'export MATCH_KEYCHAIN_PASSWORD=$MATCH_KEYCHAIN_PASSWORD' >> $BASH_ENV
+            echo 'export MATCH_PASSWORD=$MATCH_PASSWORD' >> $BASH_ENV
+            cd ios
+            bundle update
+            bundle exec fastlane internal_testflight
+          name: Distributing IPA to TestFlight
+          no_output_timeout: 20m
+
+workflows:
+  distribute:
+    jobs:
+      - android_distribute
+      - ios_distribute:
+          requires:
+            - android_distribute
