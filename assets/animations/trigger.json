@@ -1,0 +1,5221 @@
+{
+  "v": "4.8.0",
+  "meta": {
+    "g": "LottieFiles AE 3.0.2",
+    "a": "",
+    "k": "",
+    "d": "",
+    "tc": "none"
+  },
+  "fr": 29.9700012207031,
+  "ip": 0,
+  "op": 134.000005457932,
+  "w": 1854,
+  "h": 2400,
+  "nm": "signup 2",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 612,
+      "h": 792,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 612,
+      "h": 792,
+      "u": "",
+      "p": "data:image/png;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQXf8/0lRvzgjxS9YAAAAASUVORK5CYII=",
+      "e": 1
+    }
+  ],
+  "fonts": {
+    "list": [
+      {
+        "fName": "Poppins-SemiBold",
+        "fFamily": "Poppins",
+        "fStyle": "SemiBold",
+        "ascent": 73.9990234375
+      }
+    ]
+  },
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 5,
+      "nm": "Funds Sold",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 77,
+              "s": [
+                0
+              ]
+            },
+            {
+              "t": 85.000003462121,
+              "s": [
+                100
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            926.976,
+            1507.568,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "t": {
+        "d": {
+          "k": [
+            {
+              "s": {
+                "s": 48,
+                "f": "Poppins-SemiBold",
+                "t": "Funds Sold",
+                "j": 2,
+                "tr": 0,
+                "lh": 57.6,
+                "ls": 0,
+                "fc": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "t": 0
+            }
+          ]
+        },
+        "p": {},
+        "m": {
+          "g": 1,
+          "a": {
+            "a": 0,
+            "k": [
+              0,
+              0
+            ],
+            "ix": 2
+          }
+        },
+        "a": []
+      },
+      "ip": 0,
+      "op": 300.00001221925,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 5,
+      "nm": "Swipe right to sell",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 36,
+              "s": [
+                100
+              ]
+            },
+            {
+              "t": 45.0000018328876,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            922,
+            1508,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "t": {
+        "d": {
+          "k": [
+            {
+              "s": {
+                "s": 48,
+                "f": "Poppins-SemiBold",
+                "t": "Swipe right to sell",
+                "j": 2,
+                "tr": 0,
+                "lh": 57.6,
+                "ls": 0,
+                "fc": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "t": 0
+            }
+          ]
+        },
+        "p": {},
+        "m": {
+          "g": 1,
+          "a": {
+            "a": 0,
+            "k": [
+              0,
+              0
+            ],
+            "ix": 2
+          }
+        },
+        "a": []
+      },
+      "ip": 0,
+      "op": 300.00001221925,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 2,
+      "nm": "Arrow/profit triggers.ai",
+      "cl": "ai",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 0,
+              "s": [
+                1917,
+                240,
+                0
+              ],
+              "to": [
+                196.667,
+                0,
+                0
+              ],
+              "ti": [
+                -196.667,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 130.000005295009,
+              "s": [
+                3097,
+                240,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            306,
+            396,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            702.852,
+            702.852,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 300.00001221925,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 4,
+      "ty": 4,
+      "nm": "Shape Layer 1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            925,
+            1200,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ty": "rc",
+              "d": 1,
+              "s": {
+                "a": 0,
+                "k": [
+                  244,
+                  185
+                ],
+                "ix": 2
+              },
+              "p": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "nm": "Rectangle Path 1",
+              "mn": "ADBE Vector Shape - Rect",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.196078434587,
+                  0.423529416323,
+                  0.976470589638,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 4,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  -707,
+                  293.5
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  -120,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.833,
+                        0.833
+                      ],
+                      "y": [
+                        0.833,
+                        0.833
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167,
+                        0.167
+                      ],
+                      "y": [
+                        0.167,
+                        0.167
+                      ]
+                    },
+                    "t": 0,
+                    "s": [
+                      104.2,
+                      104.24
+                    ]
+                  },
+                  {
+                    "t": 130.000005295009,
+                    "s": [
+                      575,
+                      104.24
+                    ]
+                  }
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "Rectangle 1",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 300.00001221925,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 2,
+      "nm": "Main/profit triggers.ai",
+      "cl": "ai",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            843,
+            1200,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            306,
+            396,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            379.739,
+            379.739,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 0,
+      "op": 300.00001221925,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": [],
+  "chars": [
+    {
+      "ch": "S",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 60.9,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        -4.867,
+                        0
+                      ],
+                      [
+                        -3.734,
+                        1.9
+                      ],
+                      [
+                        -1.934,
+                        3.2
+                      ],
+                      [
+                        0,
+                        3.734
+                      ],
+                      [
+                        2.066,
+                        2.667
+                      ],
+                      [
+                        2.866,
+                        1.334
+                      ],
+                      [
+                        4.533,
+                        1.334
+                      ],
+                      [
+                        1.833,
+                        0.767
+                      ],
+                      [
+                        1.233,
+                        1.234
+                      ],
+                      [
+                        0,
+                        1.867
+                      ],
+                      [
+                        -1.634,
+                        1.4
+                      ],
+                      [
+                        -2.734,
+                        0
+                      ],
+                      [
+                        -1.9,
+                        -1.566
+                      ],
+                      [
+                        -0.134,
+                        -2.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        4.5,
+                        3.5
+                      ],
+                      [
+                        7.2,
+                        0
+                      ],
+                      [
+                        3.733,
+                        -1.633
+                      ],
+                      [
+                        2.066,
+                        -3.066
+                      ],
+                      [
+                        0,
+                        -4.133
+                      ],
+                      [
+                        -2.034,
+                        -2.633
+                      ],
+                      [
+                        -2.834,
+                        -1.3
+                      ],
+                      [
+                        -4.534,
+                        -1.333
+                      ],
+                      [
+                        -1.9,
+                        -0.766
+                      ],
+                      [
+                        -1.267,
+                        -1.333
+                      ],
+                      [
+                        0,
+                        -2.066
+                      ],
+                      [
+                        1.866,
+                        -1.566
+                      ],
+                      [
+                        3.266,
+                        0
+                      ],
+                      [
+                        1.833,
+                        1.667
+                      ],
+                      [
+                        0.2,
+                        2.867
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.267,
+                        -3.133
+                      ],
+                      [
+                        -3.9,
+                        -1.666
+                      ]
+                    ],
+                    "o": [
+                      [
+                        5.133,
+                        0
+                      ],
+                      [
+                        3.733,
+                        -1.9
+                      ],
+                      [
+                        1.933,
+                        -3.2
+                      ],
+                      [
+                        0,
+                        -4.333
+                      ],
+                      [
+                        -2.067,
+                        -2.666
+                      ],
+                      [
+                        -2.867,
+                        -1.333
+                      ],
+                      [
+                        -3.334,
+                        -1
+                      ],
+                      [
+                        -1.834,
+                        -0.766
+                      ],
+                      [
+                        -1.234,
+                        -1.233
+                      ],
+                      [
+                        0,
+                        -2.666
+                      ],
+                      [
+                        1.633,
+                        -1.4
+                      ],
+                      [
+                        3.133,
+                        0
+                      ],
+                      [
+                        1.9,
+                        1.567
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -0.467,
+                        -6.266
+                      ],
+                      [
+                        -4.5,
+                        -3.5
+                      ],
+                      [
+                        -4.8,
+                        0
+                      ],
+                      [
+                        -3.734,
+                        1.634
+                      ],
+                      [
+                        -2.067,
+                        3.067
+                      ],
+                      [
+                        0,
+                        4.4
+                      ],
+                      [
+                        2.033,
+                        2.634
+                      ],
+                      [
+                        2.833,
+                        1.3
+                      ],
+                      [
+                        3.333,
+                        0.934
+                      ],
+                      [
+                        1.9,
+                        0.767
+                      ],
+                      [
+                        1.266,
+                        1.334
+                      ],
+                      [
+                        0,
+                        2.534
+                      ],
+                      [
+                        -1.867,
+                        1.567
+                      ],
+                      [
+                        -3.2,
+                        0
+                      ],
+                      [
+                        -1.834,
+                        -1.666
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0.066,
+                        4.267
+                      ],
+                      [
+                        2.266,
+                        3.134
+                      ],
+                      [
+                        3.9,
+                        1.667
+                      ]
+                    ],
+                    "v": [
+                      [
+                        31,
+                        0.7
+                      ],
+                      [
+                        44.3,
+                        -2.15
+                      ],
+                      [
+                        52.8,
+                        -9.8
+                      ],
+                      [
+                        55.7,
+                        -20.2
+                      ],
+                      [
+                        52.6,
+                        -30.7
+                      ],
+                      [
+                        45.2,
+                        -36.7
+                      ],
+                      [
+                        34.1,
+                        -40.7
+                      ],
+                      [
+                        26.35,
+                        -43.35
+                      ],
+                      [
+                        21.75,
+                        -46.35
+                      ],
+                      [
+                        19.9,
+                        -51
+                      ],
+                      [
+                        22.35,
+                        -57.1
+                      ],
+                      [
+                        28.9,
+                        -59.2
+                      ],
+                      [
+                        36.45,
+                        -56.85
+                      ],
+                      [
+                        39.5,
+                        -50.9
+                      ],
+                      [
+                        54.9,
+                        -50.9
+                      ],
+                      [
+                        47.45,
+                        -65.55
+                      ],
+                      [
+                        29.9,
+                        -70.8
+                      ],
+                      [
+                        17.1,
+                        -68.35
+                      ],
+                      [
+                        8.4,
+                        -61.3
+                      ],
+                      [
+                        5.3,
+                        -50.5
+                      ],
+                      [
+                        8.35,
+                        -39.95
+                      ],
+                      [
+                        15.65,
+                        -34.05
+                      ],
+                      [
+                        26.7,
+                        -30.1
+                      ],
+                      [
+                        34.55,
+                        -27.55
+                      ],
+                      [
+                        39.3,
+                        -24.4
+                      ],
+                      [
+                        41.2,
+                        -19.3
+                      ],
+                      [
+                        38.4,
+                        -13.15
+                      ],
+                      [
+                        30.7,
+                        -10.8
+                      ],
+                      [
+                        23.15,
+                        -13.3
+                      ],
+                      [
+                        20.1,
+                        -20.1
+                      ],
+                      [
+                        5.1,
+                        -20.1
+                      ],
+                      [
+                        8.6,
+                        -9
+                      ],
+                      [
+                        17.85,
+                        -1.8
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "S",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "S",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "w",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 84.4,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        70.3,
+                        -55.4
+                      ],
+                      [
+                        60.5,
+                        -13.3
+                      ],
+                      [
+                        50.1,
+                        -55.4
+                      ],
+                      [
+                        35.3,
+                        -55.4
+                      ],
+                      [
+                        24.7,
+                        -13.2
+                      ],
+                      [
+                        14.9,
+                        -55.4
+                      ],
+                      [
+                        0.7,
+                        -55.4
+                      ],
+                      [
+                        17,
+                        0
+                      ],
+                      [
+                        32.2,
+                        0
+                      ],
+                      [
+                        42.3,
+                        -38.7
+                      ],
+                      [
+                        52.4,
+                        0
+                      ],
+                      [
+                        67.5,
+                        0
+                      ],
+                      [
+                        83.7,
+                        -55.4
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "w",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "w",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "i",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 27.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        -2.467,
+                        0
+                      ],
+                      [
+                        -1.634,
+                        1.567
+                      ],
+                      [
+                        0,
+                        2.334
+                      ],
+                      [
+                        1.633,
+                        1.567
+                      ],
+                      [
+                        2.466,
+                        0
+                      ],
+                      [
+                        1.633,
+                        -1.566
+                      ],
+                      [
+                        0,
+                        -2.333
+                      ],
+                      [
+                        -1.634,
+                        -1.566
+                      ]
+                    ],
+                    "o": [
+                      [
+                        2.466,
+                        0
+                      ],
+                      [
+                        1.633,
+                        -1.566
+                      ],
+                      [
+                        0,
+                        -2.333
+                      ],
+                      [
+                        -1.634,
+                        -1.566
+                      ],
+                      [
+                        -2.467,
+                        0
+                      ],
+                      [
+                        -1.634,
+                        1.567
+                      ],
+                      [
+                        0,
+                        2.334
+                      ],
+                      [
+                        1.633,
+                        1.567
+                      ]
+                    ],
+                    "v": [
+                      [
+                        14,
+                        -62
+                      ],
+                      [
+                        20.15,
+                        -64.35
+                      ],
+                      [
+                        22.6,
+                        -70.2
+                      ],
+                      [
+                        20.15,
+                        -76.05
+                      ],
+                      [
+                        14,
+                        -78.4
+                      ],
+                      [
+                        7.85,
+                        -76.05
+                      ],
+                      [
+                        5.4,
+                        -70.2
+                      ],
+                      [
+                        7.85,
+                        -64.35
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "i",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              },
+              {
+                "ind": 1,
+                "ty": "sh",
+                "ix": 2,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        6.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        -55.4
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "i",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "i",
+            "np": 5,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "p",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 67.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        1.8,
+                        -2.533
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -3.1,
+                        -1.666
+                      ],
+                      [
+                        -4.067,
+                        0
+                      ],
+                      [
+                        -3.834,
+                        2.4
+                      ],
+                      [
+                        -2.234,
+                        4.367
+                      ],
+                      [
+                        0,
+                        5.667
+                      ],
+                      [
+                        2.233,
+                        4.3
+                      ],
+                      [
+                        3.833,
+                        2.334
+                      ],
+                      [
+                        4.733,
+                        0
+                      ],
+                      [
+                        3.166,
+                        -1.7
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        1.933,
+                        2.534
+                      ],
+                      [
+                        3.1,
+                        1.666
+                      ],
+                      [
+                        4.733,
+                        0
+                      ],
+                      [
+                        3.833,
+                        -2.4
+                      ],
+                      [
+                        2.233,
+                        -4.366
+                      ],
+                      [
+                        0,
+                        -5.666
+                      ],
+                      [
+                        -2.234,
+                        -4.3
+                      ],
+                      [
+                        -3.834,
+                        -2.333
+                      ],
+                      [
+                        -4.067,
+                        0
+                      ],
+                      [
+                        -3.167,
+                        1.7
+                      ]
+                    ],
+                    "v": [
+                      [
+                        20.9,
+                        -47.4
+                      ],
+                      [
+                        20.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        26.4
+                      ],
+                      [
+                        20.9,
+                        26.4
+                      ],
+                      [
+                        20.9,
+                        -7.9
+                      ],
+                      [
+                        28.45,
+                        -1.6
+                      ],
+                      [
+                        39.2,
+                        0.9
+                      ],
+                      [
+                        52.05,
+                        -2.7
+                      ],
+                      [
+                        61.15,
+                        -12.85
+                      ],
+                      [
+                        64.5,
+                        -27.9
+                      ],
+                      [
+                        61.15,
+                        -42.85
+                      ],
+                      [
+                        52.05,
+                        -52.8
+                      ],
+                      [
+                        39.2,
+                        -56.3
+                      ],
+                      [
+                        28.35,
+                        -53.75
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "p",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              },
+              {
+                "ind": 1,
+                "ty": "sh",
+                "ix": 2,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        -3.333
+                      ],
+                      [
+                        1.366,
+                        -2.466
+                      ],
+                      [
+                        2.233,
+                        -1.333
+                      ],
+                      [
+                        2.6,
+                        0
+                      ],
+                      [
+                        2.233,
+                        1.3
+                      ],
+                      [
+                        1.366,
+                        2.467
+                      ],
+                      [
+                        0,
+                        3.334
+                      ],
+                      [
+                        -1.367,
+                        2.467
+                      ],
+                      [
+                        -2.234,
+                        1.3
+                      ],
+                      [
+                        -2.534,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        -1.266
+                      ],
+                      [
+                        -1.367,
+                        -2.433
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        3.4
+                      ],
+                      [
+                        -1.367,
+                        2.467
+                      ],
+                      [
+                        -2.234,
+                        1.334
+                      ],
+                      [
+                        -2.534,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        -1.3
+                      ],
+                      [
+                        -1.367,
+                        -2.466
+                      ],
+                      [
+                        0,
+                        -3.333
+                      ],
+                      [
+                        1.366,
+                        -2.466
+                      ],
+                      [
+                        2.233,
+                        -1.3
+                      ],
+                      [
+                        2.6,
+                        0
+                      ],
+                      [
+                        2.233,
+                        1.267
+                      ],
+                      [
+                        1.366,
+                        2.434
+                      ]
+                    ],
+                    "v": [
+                      [
+                        50.2,
+                        -27.9
+                      ],
+                      [
+                        48.15,
+                        -19.1
+                      ],
+                      [
+                        42.75,
+                        -13.4
+                      ],
+                      [
+                        35.5,
+                        -11.4
+                      ],
+                      [
+                        28.35,
+                        -13.35
+                      ],
+                      [
+                        22.95,
+                        -19
+                      ],
+                      [
+                        20.9,
+                        -27.7
+                      ],
+                      [
+                        22.95,
+                        -36.4
+                      ],
+                      [
+                        28.35,
+                        -42.05
+                      ],
+                      [
+                        35.5,
+                        -44
+                      ],
+                      [
+                        42.75,
+                        -42.1
+                      ],
+                      [
+                        48.15,
+                        -36.55
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "p",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "p",
+            "np": 5,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "e",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 61.7,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        2
+                      ],
+                      [
+                        2.3,
+                        4.167
+                      ],
+                      [
+                        4.166,
+                        2.267
+                      ],
+                      [
+                        5.266,
+                        0
+                      ],
+                      [
+                        4.2,
+                        -2.333
+                      ],
+                      [
+                        2.333,
+                        -4.333
+                      ],
+                      [
+                        0,
+                        -5.733
+                      ],
+                      [
+                        -2.367,
+                        -4.333
+                      ],
+                      [
+                        -4.234,
+                        -2.366
+                      ],
+                      [
+                        -5.334,
+                        0
+                      ],
+                      [
+                        -4.534,
+                        3.434
+                      ],
+                      [
+                        -1.6,
+                        5.334
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        5.2,
+                        0
+                      ],
+                      [
+                        2.466,
+                        2.267
+                      ],
+                      [
+                        0.333,
+                        4
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        -5.4
+                      ],
+                      [
+                        -2.3,
+                        -4.166
+                      ],
+                      [
+                        -4.167,
+                        -2.266
+                      ],
+                      [
+                        -5.467,
+                        0
+                      ],
+                      [
+                        -4.2,
+                        2.334
+                      ],
+                      [
+                        -2.334,
+                        4.334
+                      ],
+                      [
+                        0,
+                        5.667
+                      ],
+                      [
+                        2.366,
+                        4.334
+                      ],
+                      [
+                        4.233,
+                        2.367
+                      ],
+                      [
+                        6.6,
+                        0
+                      ],
+                      [
+                        4.533,
+                        -3.433
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.2,
+                        4.467
+                      ],
+                      [
+                        -3.6,
+                        0
+                      ],
+                      [
+                        -2.467,
+                        -2.266
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0.266,
+                        -1.6
+                      ]
+                    ],
+                    "v": [
+                      [
+                        58.4,
+                        -28.9
+                      ],
+                      [
+                        54.95,
+                        -43.25
+                      ],
+                      [
+                        45.25,
+                        -52.9
+                      ],
+                      [
+                        31.1,
+                        -56.3
+                      ],
+                      [
+                        16.6,
+                        -52.8
+                      ],
+                      [
+                        6.8,
+                        -42.8
+                      ],
+                      [
+                        3.3,
+                        -27.7
+                      ],
+                      [
+                        6.85,
+                        -12.7
+                      ],
+                      [
+                        16.75,
+                        -2.65
+                      ],
+                      [
+                        31.1,
+                        0.9
+                      ],
+                      [
+                        47.8,
+                        -4.25
+                      ],
+                      [
+                        57,
+                        -17.4
+                      ],
+                      [
+                        41.9,
+                        -17.4
+                      ],
+                      [
+                        30.8,
+                        -10.7
+                      ],
+                      [
+                        21.7,
+                        -14.1
+                      ],
+                      [
+                        17.5,
+                        -23.5
+                      ],
+                      [
+                        58,
+                        -23.5
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "e",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              },
+              {
+                "ind": 1,
+                "ty": "sh",
+                "ix": 2,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.367,
+                        2.1
+                      ],
+                      [
+                        -3.467,
+                        0
+                      ],
+                      [
+                        -2.534,
+                        -2.166
+                      ],
+                      [
+                        -0.067,
+                        -3.6
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0.533,
+                        -3.733
+                      ],
+                      [
+                        2.366,
+                        -2.1
+                      ],
+                      [
+                        3.666,
+                        0
+                      ],
+                      [
+                        2.533,
+                        2.167
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        17.6,
+                        -32.9
+                      ],
+                      [
+                        21.95,
+                        -41.65
+                      ],
+                      [
+                        30.7,
+                        -44.8
+                      ],
+                      [
+                        40,
+                        -41.55
+                      ],
+                      [
+                        43.9,
+                        -32.9
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "e",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "e",
+            "np": 5,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": " ",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 23.8,
+      "data": {},
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "r",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 40.4,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        1.8,
+                        -2.933
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        2.067
+                      ],
+                      [
+                        -4.4,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        2.9,
+                        -1.666
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        -5.133
+                      ],
+                      [
+                        2.233,
+                        -2.066
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -3.734,
+                        0
+                      ],
+                      [
+                        -2.9,
+                        1.667
+                      ]
+                    ],
+                    "v": [
+                      [
+                        20.9,
+                        -46.8
+                      ],
+                      [
+                        20.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        -27.6
+                      ],
+                      [
+                        24.25,
+                        -38.4
+                      ],
+                      [
+                        34.2,
+                        -41.5
+                      ],
+                      [
+                        37.9,
+                        -41.5
+                      ],
+                      [
+                        37.9,
+                        -56.2
+                      ],
+                      [
+                        27.95,
+                        -53.7
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "r",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "r",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "g",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 67.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        4.133,
+                        0
+                      ],
+                      [
+                        3.833,
+                        -2.333
+                      ],
+                      [
+                        2.233,
+                        -4.333
+                      ],
+                      [
+                        0,
+                        -5.6
+                      ],
+                      [
+                        -2.234,
+                        -4.366
+                      ],
+                      [
+                        -3.867,
+                        -2.4
+                      ],
+                      [
+                        -4.667,
+                        0
+                      ],
+                      [
+                        -3.167,
+                        1.733
+                      ],
+                      [
+                        -1.8,
+                        2.6
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        2.533,
+                        -2.434
+                      ],
+                      [
+                        4.066,
+                        0
+                      ],
+                      [
+                        2.433,
+                        1.5
+                      ],
+                      [
+                        0.733,
+                        2.533
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -5.034,
+                        -3.667
+                      ],
+                      [
+                        -7.867,
+                        0
+                      ],
+                      [
+                        -4.134,
+                        2.366
+                      ],
+                      [
+                        -2.067,
+                        4.033
+                      ],
+                      [
+                        0,
+                        5.133
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        3.133,
+                        1.634
+                      ]
+                    ],
+                    "o": [
+                      [
+                        -4.734,
+                        0
+                      ],
+                      [
+                        -3.834,
+                        2.334
+                      ],
+                      [
+                        -2.234,
+                        4.334
+                      ],
+                      [
+                        0,
+                        5.667
+                      ],
+                      [
+                        2.233,
+                        4.367
+                      ],
+                      [
+                        3.866,
+                        2.4
+                      ],
+                      [
+                        4.066,
+                        0
+                      ],
+                      [
+                        3.166,
+                        -1.733
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        4.933
+                      ],
+                      [
+                        -2.534,
+                        2.433
+                      ],
+                      [
+                        -3.467,
+                        0
+                      ],
+                      [
+                        -2.434,
+                        -1.5
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0.666,
+                        6.333
+                      ],
+                      [
+                        5.033,
+                        3.666
+                      ],
+                      [
+                        5.866,
+                        0
+                      ],
+                      [
+                        4.133,
+                        -2.367
+                      ],
+                      [
+                        2.066,
+                        -4.034
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -1.8,
+                        -2.6
+                      ],
+                      [
+                        -3.134,
+                        -1.633
+                      ]
+                    ],
+                    "v": [
+                      [
+                        28.6,
+                        -56.3
+                      ],
+                      [
+                        15.75,
+                        -52.8
+                      ],
+                      [
+                        6.65,
+                        -42.8
+                      ],
+                      [
+                        3.3,
+                        -27.9
+                      ],
+                      [
+                        6.65,
+                        -12.85
+                      ],
+                      [
+                        15.8,
+                        -2.7
+                      ],
+                      [
+                        28.6,
+                        0.9
+                      ],
+                      [
+                        39.45,
+                        -1.7
+                      ],
+                      [
+                        46.9,
+                        -8.2
+                      ],
+                      [
+                        46.9,
+                        0.4
+                      ],
+                      [
+                        43.1,
+                        11.45
+                      ],
+                      [
+                        33.2,
+                        15.1
+                      ],
+                      [
+                        24.35,
+                        12.85
+                      ],
+                      [
+                        19.6,
+                        6.8
+                      ],
+                      [
+                        5.7,
+                        6.8
+                      ],
+                      [
+                        14.25,
+                        21.8
+                      ],
+                      [
+                        33.6,
+                        27.3
+                      ],
+                      [
+                        48.6,
+                        23.75
+                      ],
+                      [
+                        57.9,
+                        14.15
+                      ],
+                      [
+                        61,
+                        0.4
+                      ],
+                      [
+                        61,
+                        -55.4
+                      ],
+                      [
+                        46.9,
+                        -55.4
+                      ],
+                      [
+                        46.9,
+                        -47.5
+                      ],
+                      [
+                        39.5,
+                        -53.85
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "g",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              },
+              {
+                "ind": 1,
+                "ty": "sh",
+                "ix": 2,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        -3.4
+                      ],
+                      [
+                        1.333,
+                        -2.433
+                      ],
+                      [
+                        2.266,
+                        -1.3
+                      ],
+                      [
+                        2.6,
+                        0
+                      ],
+                      [
+                        2.233,
+                        1.334
+                      ],
+                      [
+                        1.366,
+                        2.5
+                      ],
+                      [
+                        0,
+                        3.334
+                      ],
+                      [
+                        -1.367,
+                        2.434
+                      ],
+                      [
+                        -2.2,
+                        1.267
+                      ],
+                      [
+                        -2.6,
+                        0
+                      ],
+                      [
+                        -2.267,
+                        -1.3
+                      ],
+                      [
+                        -1.334,
+                        -2.433
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        3.4
+                      ],
+                      [
+                        -1.334,
+                        2.434
+                      ],
+                      [
+                        -2.267,
+                        1.3
+                      ],
+                      [
+                        -2.534,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        -1.333
+                      ],
+                      [
+                        -1.367,
+                        -2.5
+                      ],
+                      [
+                        0,
+                        -3.333
+                      ],
+                      [
+                        1.366,
+                        -2.433
+                      ],
+                      [
+                        2.2,
+                        -1.266
+                      ],
+                      [
+                        2.6,
+                        0
+                      ],
+                      [
+                        2.266,
+                        1.3
+                      ],
+                      [
+                        1.333,
+                        2.434
+                      ]
+                    ],
+                    "v": [
+                      [
+                        46.9,
+                        -27.7
+                      ],
+                      [
+                        44.9,
+                        -18.95
+                      ],
+                      [
+                        39.5,
+                        -13.35
+                      ],
+                      [
+                        32.2,
+                        -11.4
+                      ],
+                      [
+                        25.05,
+                        -13.4
+                      ],
+                      [
+                        19.65,
+                        -19.15
+                      ],
+                      [
+                        17.6,
+                        -27.9
+                      ],
+                      [
+                        19.65,
+                        -36.55
+                      ],
+                      [
+                        25,
+                        -42.1
+                      ],
+                      [
+                        32.2,
+                        -44
+                      ],
+                      [
+                        39.5,
+                        -42.05
+                      ],
+                      [
+                        44.9,
+                        -36.45
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "g",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "g",
+            "np": 5,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "h",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 66.1,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        4.2,
+                        0
+                      ],
+                      [
+                        3,
+                        -1.366
+                      ],
+                      [
+                        1.8,
+                        -2.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        2.367
+                      ],
+                      [
+                        -3.867,
+                        0
+                      ],
+                      [
+                        -2.2,
+                        -2.366
+                      ],
+                      [
+                        0,
+                        -4.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        1.833,
+                        3.567
+                      ],
+                      [
+                        3.266,
+                        1.834
+                      ]
+                    ],
+                    "o": [
+                      [
+                        -3.667,
+                        0
+                      ],
+                      [
+                        -3,
+                        1.367
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        -4.4
+                      ],
+                      [
+                        2.233,
+                        -2.366
+                      ],
+                      [
+                        3.8,
+                        0
+                      ],
+                      [
+                        2.2,
+                        2.367
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        -5
+                      ],
+                      [
+                        -1.834,
+                        -3.566
+                      ],
+                      [
+                        -3.267,
+                        -1.833
+                      ]
+                    ],
+                    "v": [
+                      [
+                        38.1,
+                        -56.2
+                      ],
+                      [
+                        28.1,
+                        -54.15
+                      ],
+                      [
+                        20.9,
+                        -48.5
+                      ],
+                      [
+                        20.9,
+                        -74
+                      ],
+                      [
+                        6.9,
+                        -74
+                      ],
+                      [
+                        6.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        -30.6
+                      ],
+                      [
+                        24.25,
+                        -40.75
+                      ],
+                      [
+                        33.4,
+                        -44.3
+                      ],
+                      [
+                        42.4,
+                        -40.75
+                      ],
+                      [
+                        45.7,
+                        -30.6
+                      ],
+                      [
+                        45.7,
+                        0
+                      ],
+                      [
+                        59.7,
+                        0
+                      ],
+                      [
+                        59.7,
+                        -32.5
+                      ],
+                      [
+                        56.95,
+                        -45.35
+                      ],
+                      [
+                        49.3,
+                        -53.45
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "h",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "h",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "t",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 38.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -11.8,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0.9,
+                        0.834
+                      ],
+                      [
+                        0,
+                        1.867
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        11.467
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.134,
+                        0
+                      ],
+                      [
+                        -0.9,
+                        -0.833
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        35.6,
+                        -43.9
+                      ],
+                      [
+                        35.6,
+                        -55.4
+                      ],
+                      [
+                        23.2,
+                        -55.4
+                      ],
+                      [
+                        23.2,
+                        -69.1
+                      ],
+                      [
+                        9.1,
+                        -69.1
+                      ],
+                      [
+                        9.1,
+                        -55.4
+                      ],
+                      [
+                        2.5,
+                        -55.4
+                      ],
+                      [
+                        2.5,
+                        -43.9
+                      ],
+                      [
+                        9.1,
+                        -43.9
+                      ],
+                      [
+                        9.1,
+                        -17.2
+                      ],
+                      [
+                        26.8,
+                        0
+                      ],
+                      [
+                        35.6,
+                        0
+                      ],
+                      [
+                        35.6,
+                        -11.8
+                      ],
+                      [
+                        29.1,
+                        -11.8
+                      ],
+                      [
+                        24.55,
+                        -13.05
+                      ],
+                      [
+                        23.2,
+                        -17.1
+                      ],
+                      [
+                        23.2,
+                        -43.9
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "t",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "t",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "o",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 63.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        -5.334,
+                        0
+                      ],
+                      [
+                        -4.367,
+                        2.367
+                      ],
+                      [
+                        -2.567,
+                        4.334
+                      ],
+                      [
+                        0,
+                        5.667
+                      ],
+                      [
+                        2.5,
+                        4.334
+                      ],
+                      [
+                        4.333,
+                        2.367
+                      ],
+                      [
+                        5.333,
+                        0
+                      ],
+                      [
+                        4.333,
+                        -2.366
+                      ],
+                      [
+                        2.5,
+                        -4.333
+                      ],
+                      [
+                        0,
+                        -5.666
+                      ],
+                      [
+                        -2.434,
+                        -4.333
+                      ],
+                      [
+                        -4.267,
+                        -2.366
+                      ]
+                    ],
+                    "o": [
+                      [
+                        5.4,
+                        0
+                      ],
+                      [
+                        4.366,
+                        -2.366
+                      ],
+                      [
+                        2.566,
+                        -4.333
+                      ],
+                      [
+                        0,
+                        -5.666
+                      ],
+                      [
+                        -2.5,
+                        -4.333
+                      ],
+                      [
+                        -4.334,
+                        -2.366
+                      ],
+                      [
+                        -5.334,
+                        0
+                      ],
+                      [
+                        -4.334,
+                        2.367
+                      ],
+                      [
+                        -2.5,
+                        4.334
+                      ],
+                      [
+                        0,
+                        5.667
+                      ],
+                      [
+                        2.433,
+                        4.334
+                      ],
+                      [
+                        4.266,
+                        2.367
+                      ]
+                    ],
+                    "v": [
+                      [
+                        31.5,
+                        0.9
+                      ],
+                      [
+                        46.15,
+                        -2.65
+                      ],
+                      [
+                        56.55,
+                        -12.7
+                      ],
+                      [
+                        60.4,
+                        -27.7
+                      ],
+                      [
+                        56.65,
+                        -42.7
+                      ],
+                      [
+                        46.4,
+                        -52.75
+                      ],
+                      [
+                        31.9,
+                        -56.3
+                      ],
+                      [
+                        17.4,
+                        -52.75
+                      ],
+                      [
+                        7.15,
+                        -42.7
+                      ],
+                      [
+                        3.4,
+                        -27.7
+                      ],
+                      [
+                        7.05,
+                        -12.7
+                      ],
+                      [
+                        17.1,
+                        -2.65
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "o",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              },
+              {
+                "ind": 1,
+                "ty": "sh",
+                "ix": 2,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        2.533,
+                        0
+                      ],
+                      [
+                        2.633,
+                        2.834
+                      ],
+                      [
+                        0,
+                        5.267
+                      ],
+                      [
+                        -2.7,
+                        2.834
+                      ],
+                      [
+                        -4,
+                        0
+                      ],
+                      [
+                        -2.767,
+                        -2.833
+                      ],
+                      [
+                        0,
+                        -5.266
+                      ],
+                      [
+                        1.333,
+                        -2.466
+                      ],
+                      [
+                        2.233,
+                        -1.233
+                      ]
+                    ],
+                    "o": [
+                      [
+                        -4,
+                        0
+                      ],
+                      [
+                        -2.634,
+                        -2.833
+                      ],
+                      [
+                        0,
+                        -5.266
+                      ],
+                      [
+                        2.7,
+                        -2.833
+                      ],
+                      [
+                        4,
+                        0
+                      ],
+                      [
+                        2.766,
+                        2.834
+                      ],
+                      [
+                        0,
+                        3.534
+                      ],
+                      [
+                        -1.334,
+                        2.467
+                      ],
+                      [
+                        -2.234,
+                        1.234
+                      ]
+                    ],
+                    "v": [
+                      [
+                        31.5,
+                        -11.3
+                      ],
+                      [
+                        21.55,
+                        -15.55
+                      ],
+                      [
+                        17.6,
+                        -27.7
+                      ],
+                      [
+                        21.65,
+                        -39.85
+                      ],
+                      [
+                        31.7,
+                        -44.1
+                      ],
+                      [
+                        41.85,
+                        -39.85
+                      ],
+                      [
+                        46,
+                        -27.7
+                      ],
+                      [
+                        44,
+                        -18.7
+                      ],
+                      [
+                        38.65,
+                        -13.15
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "o",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "o",
+            "np": 5,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "s",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 54.5,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        -4.534,
+                        0
+                      ],
+                      [
+                        -3.3,
+                        1.433
+                      ],
+                      [
+                        -1.767,
+                        2.534
+                      ],
+                      [
+                        0,
+                        3.2
+                      ],
+                      [
+                        1.9,
+                        2.234
+                      ],
+                      [
+                        2.6,
+                        1.067
+                      ],
+                      [
+                        4,
+                        1
+                      ],
+                      [
+                        1.866,
+                        0.967
+                      ],
+                      [
+                        0,
+                        1.867
+                      ],
+                      [
+                        -1.367,
+                        0.934
+                      ],
+                      [
+                        -2.534,
+                        0
+                      ],
+                      [
+                        -1.634,
+                        -1.3
+                      ],
+                      [
+                        -0.2,
+                        -2.2
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        3.933,
+                        3.3
+                      ],
+                      [
+                        6.6,
+                        0
+                      ],
+                      [
+                        3.3,
+                        -1.466
+                      ],
+                      [
+                        1.766,
+                        -2.533
+                      ],
+                      [
+                        0,
+                        -3.066
+                      ],
+                      [
+                        -1.9,
+                        -2.2
+                      ],
+                      [
+                        -2.634,
+                        -1.066
+                      ],
+                      [
+                        -4.134,
+                        -1
+                      ],
+                      [
+                        -1.834,
+                        -0.9
+                      ],
+                      [
+                        0,
+                        -1.8
+                      ],
+                      [
+                        1.5,
+                        -1.066
+                      ],
+                      [
+                        2.666,
+                        0
+                      ],
+                      [
+                        1.833,
+                        1.4
+                      ],
+                      [
+                        0.266,
+                        2.134
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.1,
+                        -2.8
+                      ],
+                      [
+                        -3.6,
+                        -1.633
+                      ]
+                    ],
+                    "o": [
+                      [
+                        4.4,
+                        0
+                      ],
+                      [
+                        3.3,
+                        -1.433
+                      ],
+                      [
+                        1.766,
+                        -2.533
+                      ],
+                      [
+                        -0.067,
+                        -3.666
+                      ],
+                      [
+                        -1.9,
+                        -2.233
+                      ],
+                      [
+                        -2.6,
+                        -1.066
+                      ],
+                      [
+                        -3.934,
+                        -1
+                      ],
+                      [
+                        -1.867,
+                        -0.966
+                      ],
+                      [
+                        0,
+                        -1.666
+                      ],
+                      [
+                        1.366,
+                        -0.933
+                      ],
+                      [
+                        2.733,
+                        0
+                      ],
+                      [
+                        1.633,
+                        1.3
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -0.4,
+                        -5.6
+                      ],
+                      [
+                        -3.934,
+                        -3.3
+                      ],
+                      [
+                        -4.467,
+                        0
+                      ],
+                      [
+                        -3.3,
+                        1.467
+                      ],
+                      [
+                        -1.767,
+                        2.534
+                      ],
+                      [
+                        0,
+                        3.734
+                      ],
+                      [
+                        1.9,
+                        2.2
+                      ],
+                      [
+                        2.633,
+                        1.067
+                      ],
+                      [
+                        4,
+                        1.067
+                      ],
+                      [
+                        1.833,
+                        0.9
+                      ],
+                      [
+                        0,
+                        1.667
+                      ],
+                      [
+                        -1.5,
+                        1.067
+                      ],
+                      [
+                        -2.734,
+                        0
+                      ],
+                      [
+                        -1.834,
+                        -1.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0.2,
+                        3.4
+                      ],
+                      [
+                        2.1,
+                        2.8
+                      ],
+                      [
+                        3.6,
+                        1.633
+                      ]
+                    ],
+                    "v": [
+                      [
+                        28.1,
+                        0.9
+                      ],
+                      [
+                        39.65,
+                        -1.25
+                      ],
+                      [
+                        47.25,
+                        -7.2
+                      ],
+                      [
+                        49.9,
+                        -15.8
+                      ],
+                      [
+                        46.95,
+                        -24.65
+                      ],
+                      [
+                        40.2,
+                        -29.6
+                      ],
+                      [
+                        30.3,
+                        -32.7
+                      ],
+                      [
+                        21.6,
+                        -35.65
+                      ],
+                      [
+                        18.8,
+                        -39.9
+                      ],
+                      [
+                        20.85,
+                        -43.8
+                      ],
+                      [
+                        26.7,
+                        -45.2
+                      ],
+                      [
+                        33.25,
+                        -43.25
+                      ],
+                      [
+                        36,
+                        -38
+                      ],
+                      [
+                        49.4,
+                        -38
+                      ],
+                      [
+                        42.9,
+                        -51.35
+                      ],
+                      [
+                        27.1,
+                        -56.3
+                      ],
+                      [
+                        15.45,
+                        -54.1
+                      ],
+                      [
+                        7.85,
+                        -48.1
+                      ],
+                      [
+                        5.2,
+                        -39.7
+                      ],
+                      [
+                        8.05,
+                        -30.8
+                      ],
+                      [
+                        14.85,
+                        -25.9
+                      ],
+                      [
+                        25,
+                        -22.8
+                      ],
+                      [
+                        33.75,
+                        -19.85
+                      ],
+                      [
+                        36.5,
+                        -15.8
+                      ],
+                      [
+                        34.25,
+                        -11.7
+                      ],
+                      [
+                        28,
+                        -10.1
+                      ],
+                      [
+                        21.15,
+                        -12.2
+                      ],
+                      [
+                        18,
+                        -17.5
+                      ],
+                      [
+                        3.9,
+                        -17.5
+                      ],
+                      [
+                        7.35,
+                        -8.2
+                      ],
+                      [
+                        15.9,
+                        -1.55
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "s",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "s",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "l",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 27.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        6.9,
+                        -74
+                      ],
+                      [
+                        6.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        -74
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "l",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "l",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "F",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 53,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        6.9,
+                        -69.8
+                      ],
+                      [
+                        6.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        -29.5
+                      ],
+                      [
+                        43.2,
+                        -29.5
+                      ],
+                      [
+                        43.2,
+                        -40.6
+                      ],
+                      [
+                        20.9,
+                        -40.6
+                      ],
+                      [
+                        20.9,
+                        -58.5
+                      ],
+                      [
+                        50,
+                        -58.5
+                      ],
+                      [
+                        50,
+                        -69.8
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "F",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "F",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "u",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 66.1,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        2.2,
+                        -2.366
+                      ],
+                      [
+                        3.866,
+                        0
+                      ],
+                      [
+                        2.2,
+                        2.367
+                      ],
+                      [
+                        0,
+                        4.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -1.9,
+                        -3.566
+                      ],
+                      [
+                        -3.334,
+                        -1.833
+                      ],
+                      [
+                        -4.334,
+                        0
+                      ],
+                      [
+                        -2.9,
+                        1.366
+                      ],
+                      [
+                        -1.8,
+                        2.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        4.4
+                      ],
+                      [
+                        -2.2,
+                        2.367
+                      ],
+                      [
+                        -3.8,
+                        0
+                      ],
+                      [
+                        -2.2,
+                        -2.366
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        4.934
+                      ],
+                      [
+                        1.9,
+                        3.567
+                      ],
+                      [
+                        3.333,
+                        1.834
+                      ],
+                      [
+                        3.4,
+                        0
+                      ],
+                      [
+                        2.9,
+                        -1.366
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        45.1,
+                        -55.4
+                      ],
+                      [
+                        45.1,
+                        -24.9
+                      ],
+                      [
+                        41.8,
+                        -14.75
+                      ],
+                      [
+                        32.7,
+                        -11.2
+                      ],
+                      [
+                        23.7,
+                        -14.75
+                      ],
+                      [
+                        20.4,
+                        -24.9
+                      ],
+                      [
+                        20.4,
+                        -55.4
+                      ],
+                      [
+                        6.4,
+                        -55.4
+                      ],
+                      [
+                        6.4,
+                        -22.9
+                      ],
+                      [
+                        9.25,
+                        -10.15
+                      ],
+                      [
+                        17.1,
+                        -2.05
+                      ],
+                      [
+                        28.6,
+                        0.7
+                      ],
+                      [
+                        38.05,
+                        -1.35
+                      ],
+                      [
+                        45.1,
+                        -7
+                      ],
+                      [
+                        45.1,
+                        0
+                      ],
+                      [
+                        59.2,
+                        0
+                      ],
+                      [
+                        59.2,
+                        -55.4
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "u",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "u",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "n",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 66.1,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        6.6,
+                        0
+                      ],
+                      [
+                        2.9,
+                        -1.366
+                      ],
+                      [
+                        1.866,
+                        -2.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        2.367
+                      ],
+                      [
+                        -3.867,
+                        0
+                      ],
+                      [
+                        -2.2,
+                        -2.366
+                      ],
+                      [
+                        0,
+                        -4.4
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        4.066,
+                        4.167
+                      ]
+                    ],
+                    "o": [
+                      [
+                        -3.467,
+                        0
+                      ],
+                      [
+                        -2.9,
+                        1.367
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        -4.4
+                      ],
+                      [
+                        2.233,
+                        -2.366
+                      ],
+                      [
+                        3.8,
+                        0
+                      ],
+                      [
+                        2.2,
+                        2.367
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        -7.466
+                      ],
+                      [
+                        -4.067,
+                        -4.166
+                      ]
+                    ],
+                    "v": [
+                      [
+                        37.6,
+                        -56.2
+                      ],
+                      [
+                        28.05,
+                        -54.15
+                      ],
+                      [
+                        20.9,
+                        -48.5
+                      ],
+                      [
+                        20.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        -55.4
+                      ],
+                      [
+                        6.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        0
+                      ],
+                      [
+                        20.9,
+                        -30.6
+                      ],
+                      [
+                        24.25,
+                        -40.75
+                      ],
+                      [
+                        33.4,
+                        -44.3
+                      ],
+                      [
+                        42.4,
+                        -40.75
+                      ],
+                      [
+                        45.7,
+                        -30.6
+                      ],
+                      [
+                        45.7,
+                        0
+                      ],
+                      [
+                        59.7,
+                        0
+                      ],
+                      [
+                        59.7,
+                        -32.5
+                      ],
+                      [
+                        53.6,
+                        -49.95
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "n",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "n",
+            "np": 3,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    },
+    {
+      "ch": "d",
+      "size": 48,
+      "style": "SemiBold",
+      "w": 67.8,
+      "data": {
+        "shapes": [
+          {
+            "ty": "gr",
+            "it": [
+              {
+                "ind": 0,
+                "ty": "sh",
+                "ix": 1,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        -5.6
+                      ],
+                      [
+                        -2.234,
+                        -4.366
+                      ],
+                      [
+                        -3.867,
+                        -2.4
+                      ],
+                      [
+                        -4.667,
+                        0
+                      ],
+                      [
+                        -3.134,
+                        1.666
+                      ],
+                      [
+                        -1.734,
+                        2.734
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        3.266,
+                        1.567
+                      ],
+                      [
+                        3.6,
+                        0
+                      ],
+                      [
+                        3.866,
+                        -2.333
+                      ],
+                      [
+                        2.233,
+                        -4.333
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        5.667
+                      ],
+                      [
+                        2.233,
+                        4.367
+                      ],
+                      [
+                        3.866,
+                        2.4
+                      ],
+                      [
+                        4.133,
+                        0
+                      ],
+                      [
+                        3.133,
+                        -1.666
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        -1.934,
+                        -2.6
+                      ],
+                      [
+                        -3.267,
+                        -1.566
+                      ],
+                      [
+                        -4.734,
+                        0
+                      ],
+                      [
+                        -3.867,
+                        2.334
+                      ],
+                      [
+                        -2.234,
+                        4.334
+                      ]
+                    ],
+                    "v": [
+                      [
+                        3.3,
+                        -27.9
+                      ],
+                      [
+                        6.65,
+                        -12.85
+                      ],
+                      [
+                        15.8,
+                        -2.7
+                      ],
+                      [
+                        28.6,
+                        0.9
+                      ],
+                      [
+                        39.5,
+                        -1.6
+                      ],
+                      [
+                        46.8,
+                        -8.2
+                      ],
+                      [
+                        46.8,
+                        0
+                      ],
+                      [
+                        61,
+                        0
+                      ],
+                      [
+                        61,
+                        -74
+                      ],
+                      [
+                        46.8,
+                        -74
+                      ],
+                      [
+                        46.8,
+                        -47.7
+                      ],
+                      [
+                        39,
+                        -53.95
+                      ],
+                      [
+                        28.7,
+                        -56.3
+                      ],
+                      [
+                        15.8,
+                        -52.8
+                      ],
+                      [
+                        6.65,
+                        -42.8
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "d",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              },
+              {
+                "ind": 1,
+                "ty": "sh",
+                "ix": 2,
+                "ks": {
+                  "a": 0,
+                  "k": {
+                    "i": [
+                      [
+                        0,
+                        -3.4
+                      ],
+                      [
+                        1.333,
+                        -2.433
+                      ],
+                      [
+                        2.266,
+                        -1.3
+                      ],
+                      [
+                        2.6,
+                        0
+                      ],
+                      [
+                        2.233,
+                        1.334
+                      ],
+                      [
+                        1.366,
+                        2.5
+                      ],
+                      [
+                        0,
+                        3.334
+                      ],
+                      [
+                        -1.367,
+                        2.434
+                      ],
+                      [
+                        -2.2,
+                        1.267
+                      ],
+                      [
+                        -2.6,
+                        0
+                      ],
+                      [
+                        -2.267,
+                        -1.3
+                      ],
+                      [
+                        -1.334,
+                        -2.433
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        3.4
+                      ],
+                      [
+                        -1.334,
+                        2.434
+                      ],
+                      [
+                        -2.267,
+                        1.3
+                      ],
+                      [
+                        -2.534,
+                        0
+                      ],
+                      [
+                        -2.234,
+                        -1.333
+                      ],
+                      [
+                        -1.367,
+                        -2.5
+                      ],
+                      [
+                        0,
+                        -3.333
+                      ],
+                      [
+                        1.366,
+                        -2.433
+                      ],
+                      [
+                        2.2,
+                        -1.266
+                      ],
+                      [
+                        2.6,
+                        0
+                      ],
+                      [
+                        2.266,
+                        1.3
+                      ],
+                      [
+                        1.333,
+                        2.434
+                      ]
+                    ],
+                    "v": [
+                      [
+                        46.9,
+                        -27.7
+                      ],
+                      [
+                        44.9,
+                        -18.95
+                      ],
+                      [
+                        39.5,
+                        -13.35
+                      ],
+                      [
+                        32.2,
+                        -11.4
+                      ],
+                      [
+                        25.05,
+                        -13.4
+                      ],
+                      [
+                        19.65,
+                        -19.15
+                      ],
+                      [
+                        17.6,
+                        -27.9
+                      ],
+                      [
+                        19.65,
+                        -36.55
+                      ],
+                      [
+                        25,
+                        -42.1
+                      ],
+                      [
+                        32.2,
+                        -44
+                      ],
+                      [
+                        39.5,
+                        -42.05
+                      ],
+                      [
+                        44.9,
+                        -36.45
+                      ]
+                    ],
+                    "c": true
+                  },
+                  "ix": 2
+                },
+                "nm": "d",
+                "mn": "ADBE Vector Shape - Group",
+                "hd": false
+              }
+            ],
+            "nm": "d",
+            "np": 5,
+            "cix": 2,
+            "bm": 0,
+            "ix": 1,
+            "mn": "ADBE Vector Group",
+            "hd": false
+          }
+        ]
+      },
+      "fFamily": "Poppins"
+    }
+  ]
+}

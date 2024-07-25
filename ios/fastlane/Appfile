@@ -1,0 +1,8 @@
+app_identifier("com.neosurge.neosurge") # The bundle identifier of your app
+apple_id("kunj.kanani@bullsurge.in") # Your Apple Developer Portal username - kunj.kanani@bullsurge.in
+
+team_id("3LCD22298H") # Developer Portal team ID - 3LCD22298H
+itc_team_id("126476759") # App Store Connect Team ID - 126476759
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

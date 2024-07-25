@@ -1,0 +1,57 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :sync_certificates do
+    setup_circle_ci
+    # Download the latest code signing identity
+    match(
+      api_key_path: "./fastlane/apple_store_api_connect.json",
+      readonly: true,
+      type: "development"
+    )
+  end
+
+  lane :internal_testflight do
+
+    setup_circle_ci
+
+    # Download the latest code signing identity
+    match(
+      api_key_path: "./fastlane/apple_store_api_connect.json",
+      readonly: true,
+      type: "appstore"
+    )
+
+    # Build the app
+    build_app(
+      scheme: "prod",
+      skip_build_archive: true,
+      export_method: "app-store",
+      export_team_id: "3LCD22298H",
+      archive_path: "../build/ios/archive/Neosurge.xcarchive"
+    )
+
+    # Automatically loads Actions.lane_context[SharedValues::APP_STORE_CONNECT_API_KEY]
+    # Upload the app to TestFlight
+    pilot(
+      api_key_path: "./fastlane/apple_store_api_connect.json",
+      skip_waiting_for_build_processing: true
+    )
+  end
+end

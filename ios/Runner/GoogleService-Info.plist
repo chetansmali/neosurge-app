@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>901855431398-83uq6r2mbjun1pc8uv4loikpk5buat6g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.901855431398-83uq6r2mbjun1pc8uv4loikpk5buat6g</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>901855431398-0533d84gtch6b9at4fk2bmts0771hfv5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCf_DL83PUOfgELxkZ9bGPQuh1j-cSm3Ts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>901855431398</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.neosurge.neosurge</string>
+	<key>PROJECT_ID</key>
+	<string>neosurge-2cb42</string>
+	<key>STORAGE_BUCKET</key>
+	<string>neosurge-2cb42.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:901855431398:ios:1f58bb9b470efba503c927</string>
+</dict>
+</plist>

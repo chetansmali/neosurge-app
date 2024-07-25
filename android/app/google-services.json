@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "901855431398",
+    "project_id": "neosurge-2cb42",
+    "storage_bucket": "neosurge-2cb42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901855431398:android:0d2e4c7b010e580e03c927",
+        "android_client_info": {
+          "package_name": "com.neosurge.neosurge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901855431398-0533d84gtch6b9at4fk2bmts0771hfv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neosurge.neosurge",
+            "certificate_hash": "12aca221ac253a57e03342caeb23443cecae56fa"
+          }
+        },
+        {
+          "client_id": "901855431398-vo2vjitftml7v641unu1puorobh6u32r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIwV153QEKiXUpR_EDT3fmFsnf9wnkOTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901855431398-vo2vjitftml7v641unu1puorobh6u32r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901855431398-83uq6r2mbjun1pc8uv4loikpk5buat6g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.neosurge.neosurge"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
